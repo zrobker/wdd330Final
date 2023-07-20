@@ -10,8 +10,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "src/index.html"),
         personal: resolve(__dirname, "src/profile/index.html"),
-        weather: resolve(__dirname, "src/searchedWeather/index.html"),
-        weatherList: resolve(__dirname, "src/weather-list/index.html"),
+        weather: resolve(__dirname, "src/searched-weather/index.html"),
         login: resolve(__dirname, "src/login/index.html")
       },
     },
